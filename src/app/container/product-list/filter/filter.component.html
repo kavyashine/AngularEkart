@@ -1,0 +1,22 @@
+<div class="filter-container">
+    <span>Filter:</span>
+        
+<!-- using the two way bindig to make use whenever the changes happend in webpage that has to be reflected -->
+<!-- using change event to capture the data  -->
+
+ <input type="radio" name="filter" value="all" 
+    [(ngModel)]="selectedRadioButton"
+   (change)="onselectedRadioButtonChanged()"/>
+    <span>{{'All ('+all+')'}}</span>
+
+    <input type="radio" name="filter" value="true"
+     [(ngModel)]="selectedRadioButton"
+     
+     (change)="onselectedRadioButtonChanged()" />
+    <span>{{'InStock ('+inStock+')'}}</span>
+
+    <input type="radio" name="filter" value="false" 
+    [(ngModel)]="selectedRadioButton" 
+    (change)="onselectedRadioButtonChanged()"/>
+    <span>{{'OutOfStock ('+outOfstock+')'}}</span>
+</div>
