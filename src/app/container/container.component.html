@@ -15,9 +15,10 @@
 
 <!-- <input  (input)="onNameChange($event)"/><br>
 <p>name={{name}}</p> -->
-<app-search></app-search>
+<app-search (searchTextChanged)="setSearchText($event)"></app-search>
 <!-- <div *ngFor="let item of listOfString">
 <p>Current element of array is: {{item}}</p>
 </div> -->
-<app-product-list></app-product-list>
+<app-product-list [searchText]="searchText" #productListComponent></app-product-list>
+<app-product-detail *ngIf="productListComponent.selectedProduct"></app-product-detail>
 </div>

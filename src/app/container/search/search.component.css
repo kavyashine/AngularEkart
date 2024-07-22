@@ -33,3 +33,195 @@ border: none;
     margin: 20px auto;
     padding: 10px 140px;
 }
+
+@media only screen and (max-width:600px){
+    .search-product{
+        margin: 10px auto;
+        text-align: center;
+    }   
+    .serach-product-input{
+        width: 10%;
+        height: 4.5vh;
+        padding: 1px 5px;
+        outline: none;
+        border-radius: 2px;
+        background-color: #efefef;
+        border: #28282B 1px solid;
+    }
+    .btn{
+        padding: 5px 5px;
+        border: none;
+        }
+        .btn-search{
+            padding: 10px 20px;
+            background-color: #28282B;
+            margin-left: -3px;
+            color: #fff;
+        }
+        .btn-search-disabled{
+            padding: 12px 30px;
+            background-color: #aaa;
+            margin-left: -1px;
+            color: #999;
+            border: #aaa 1px solid;
+            cursor: not-allowed  no-drop;
+        }
+        .serach-result-for{
+            margin: 20px auto;
+            padding: 10px 140px;
+        }
+        
+}
+
+@media only screen and (min-width: 600px) {
+    .search-product{
+        margin: 12px auto;
+        text-align: center;
+    }   
+    .serach-product-input{
+        width: 20%;
+        height: 4.5vh;
+        padding: 1px 5px;
+        outline: none;
+        border-radius: 2px;
+        background-color: #efefef;
+        border: #28282B 1px solid;
+    }
+    .btn{
+        padding: 5px 5px;
+        border: none;
+        }
+        .btn-search{
+            padding: 5px 20px;
+            background-color: #28282B;
+            margin-left: -3px;
+            color: #fff;
+        }
+        .btn-search-disabled{
+            padding: 12px 30px;
+            background-color: #aaa;
+            margin-left: -1px;
+            color: #999;
+            border: #aaa 1px solid;
+            cursor: not-allowed  no-drop;
+        }
+        .serach-result-for{
+            margin: 20px auto;
+            padding: 10px 140px;
+        }
+    
+}
+@media only screen and (min-width: 768px) {
+    .search-product{
+        margin: 12px auto;
+        text-align: center;
+    }   
+    .serach-product-input{
+        width: 20%;
+        height: 4.5vh;
+        padding: 1px 5px;
+        outline: none;
+        border-radius: 2px;
+        background-color: #efefef;
+        border: #28282B 1px solid;
+    }
+    .btn{
+        padding: 5px 5px;
+        border: none;
+        }
+        .btn-search{
+            padding: 5px 20px;
+            background-color: #28282B;
+            margin-left: -3px;
+            color: #fff;
+        }
+        .btn-search-disabled{
+            padding: 12px 30px;
+            background-color: #aaa;
+            margin-left: -1px;
+            color: #999;
+            border: #aaa 1px solid;
+            cursor: not-allowed  no-drop;
+        }
+        .serach-result-for{
+            margin: 20px auto;
+            padding: 10px 140px;
+        }
+
+}
+@media only screen and (min-width: 992px) {
+
+    .search-product{
+        margin: 12px auto;
+        text-align: center;
+    }   
+    .serach-product-input{
+        width: 20%;
+        height: 4.5vh;
+        padding: 1px 5px;
+        outline: none;
+        border-radius: 2px;
+        background-color: #efefef;
+        border: #28282B 1px solid;
+    }
+    .btn{
+        padding: 5px 5px;
+        border: none;
+        }
+        .btn-search{
+            padding: 5px 20px;
+            background-color: #28282B;
+            margin-left: -3px;
+            color: #fff;
+        }
+        .btn-search-disabled{
+            padding: 12px 30px;
+            background-color: #aaa;
+            margin-left: -1px;
+            color: #999;
+            border: #aaa 1px solid;
+            cursor: not-allowed  no-drop;
+        }
+        .serach-result-for{
+            margin: 20px auto;
+            padding: 10px 140px;
+        }
+}
+@media only screen and (min-width: 1200px) {
+    .search-product{
+        margin: 12px auto;
+        text-align: center;
+    }   
+    .serach-product-input{
+        width: 20%;
+        height: 4.5vh;
+        padding: 1px 5px;
+        outline: none;
+        border-radius: 2px;
+        background-color: #efefef;
+        border: #28282B 1px solid;
+    }
+    .btn{
+        padding: 5px 5px;
+        border: none;
+        }
+        .btn-search{
+            padding: 5px 20px;
+            background-color: #28282B;
+            margin-left: -3px;
+            color: #fff;
+        }
+        .btn-search-disabled{
+            padding: 12px 30px;
+            background-color: #aaa;
+            margin-left: -1px;
+            color: #999;
+            border: #aaa 1px solid;
+            cursor: not-allowed  no-drop;
+        }
+        .serach-result-for{
+            margin: 20px auto;
+            padding: 10px 140px;
+        }
+
+}

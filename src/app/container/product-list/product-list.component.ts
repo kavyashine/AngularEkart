@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-
+import { Component, Input } from '@angular/core';
+import { Product } from '../../Models/product';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent {
-
+  selectedProduct:Product;
   products=[
     {
       id:1,
@@ -206,4 +206,6 @@ export class ProductListComponent {
     console.log(value);
     this.selectedRadioButton = value;
   }
+  @Input()
+  searchText:string='';
 }

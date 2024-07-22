@@ -1,7 +1,7 @@
 <div class="search-product">
     <!-- two way bindig is a combination of property binding and event binding -->
 <!-- <input class="serach-product-input" [value]="searchText" (input)="updateSearchText($event)"/> -->
- <input class="serach-product-input" [(ngModel)]="searchText">
+ <input class="serach-product-input" [(ngModel)]="searchText" (input)="onSearchTextChanged()">
 <button [ngClass]="{'btn':true,'btn-search':searchText,'btn-search-disabled':!searchText}"
         [disabled]='!searchText'>Search</button>
 </div>
